@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/zentry-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/robert-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/robert-medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/general.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>LANDGAME - Redefine Gaming</title>
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1756573569497"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1756573569497">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header" data-fls-header="" data-fls-header-scroll="" data-fls-header-scroll-show="">
+				<div class="header__wrapper">
+					<div class="header__container">
+						<div class="header__menu menu">
+							<div class="menu__left-side">
+								<div class="menu__logo">GAMELAND</div>
+								<a class="menu__btn btn --icon-cursor-r" href="#">
+									<span class="btn__label">
+										<span class="btn__main">PRODUCT</span>
+										<span class="btn__alt">SEE now!</span>
+									</span>
+								</a>
+							</div>
+							<div class="menu__body-wrapper">
+								<nav class="menu__body">
+									<ul class="menu__list">
+										<li class="menu__item">
+											<a href="#" class="menu__link">Nexus</a>
+										</li>
+										<li class="menu__item">
+											<a href="#" class="menu__link">Vault</a>
+										</li>
+										<li class="menu__item">
+											<a href="#" class="menu__link">Prologue</a>
+										</li>
+										<li class="menu__item">
+											<a href="#" class="menu__link">About</a>
+										</li>
+										<li class="menu__item">
+											<a href="#" class="menu__link">Contacts</a>
+										</li>
+									</ul>
+								</nav>
+								<div class="menu__action">
+									<button type="button" class="menu__audio-toggle --icon-music" aria-label="Toggle audio" data-fls-dynamic=".menu__body, 385, 1">
+										<div class="menu__audio-icon">
+											<span></span>
+											<span></span>
+											<span></span>
+											<span></span>
+										</div>
+									</button>
+									<button type="button" data-fls-menu="" class="menu__icon icon-menu" aria-label="Toggle menu">
+										<span></span>
+									</button>
+								</div>
+							</div>
+						</div>
+						<!--
+<fetch url="@components/layout/menu/menu.js?v=1756573569497on">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+					</div>
+				</div>
+			</header>
+			<main class="page page--home">
+				<div id="preloader" class="preloader" aria-hidden="true">
+					<div class="preloader__inner">
+						<h3 class="preloader__brand">GAMELAND</h3>
+						<div class="preloader__bar">
+							<span class="preloader__fill" data-preloader-fill=""></span>
+						</div>
+						<p class="preloader__meta">
+							<span data-preloader-percent="">0%</span>
+							<span class="dot">•</span>
+							<span data-preloader-status="">BOOTING METAGAME LAYER…</span>
+						</p>
+					</div>
+				</div>
+				<section class="hero" id="home" aria-label="Hero">
+					<div class="hero__wrapper wrapper__container">
+						<h1 class="visually-hidden">LANDGAME: Redefine Gaming</h1>
+						<div class="hero__row">
+							<div class="hero__stage">
+								<video id="next-video" class="hero__next-video" loop muted playsinline=""></video>
+								<video id="bg-video" class="hero__bg" autoplay muted playsinline="" loop preload="auto"></video>
+							</div>
+							<div class="hero__mini">
+								<div class="hero__mini-inner" id="mini-click" title="Watch next">
+									<video id="current-video" class="hero__mini-video" loop muted playsinline=""></video>
+								</div>
+							</div>
+							<div class="hero__container">
+								<div class="hero__content" id="video-frame">
+									<div class="hero__copy">
+										<h2 class="hero__label">redefine</h2>
+										<p class="hero__subtitle">Enter the Metagame Layer Unleash the Play Economy</p>
+										<a class="hero__btn btn btn--light-gr --icon-cursor-l" href="#trailer">
+											<span class="btn__label">
+												<span class="btn__main">watch trailer</span>
+												<span class="btn__alt">watch now!</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<h2 class="hero__label hero__label--top">Gaming</h2>
+							</div>
+						</div>
+						<h2 class="hero__label hero__label--inside">Gaming</h2>
+					</div>
+				</section>
+				<section id="about" class="about">
+					<h2 class="visually-hidden">About Zentry</h2>
+					<div class="about__container">
+						<p class="about__eyebrow">Welcome to Zentry</p>
+						<h3 class="about__title anim-title">Discover the world's largest shared adventure</h3>
+						<div class="about__subtext">
+							<p>The Game of Games begins — your life, now an epic MMORPG</p>
+							<p>Zentry unites every player from countless games and platforms</p>
+						</div>
+					</div>
+					<!-- Піниться, тут відбувається розгортання маски -->
+					<div class="about__viewport" id="clip">
+						<div class="about__image mask-clip-path">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/about-600.webp" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/about-1200.webp" type="image/webp">
+								<img alt="Background" class="about__img" src="./assets/img/about.webp">
+							</picture>
+						</div>
+					</div>
+				</section>
+				<section class="discover" id="discover" aria-labelledby="discover-title">
+					<div class="discover__container">
+						<div class="discover__top">
+							<h2 class="discover__title" id="discover-title">Into the Metagame Layer</h2>
+							<div class="discover__text">
+								<p>
+									Immerse yourself in a rich and ever-expanding ecosystem where a vibrant array of products converge
+                  into an
+                  interconnected universe.
+								</p>
+							</div>
+						</div>
+						<div class="discover__inner">
+							<article class="discover__item js-tilt">
+								<div class="discover__item-content">
+									<h3 class="discover__item-title">RADIANT</h3>
+									<p class="discover__item-text">
+										A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding
+                  adventure.
+									</p>
+								</div>
+								<video class="discover__item-video" src="./files/feature-1.mp4" autoplay muted loop playsinline=""></video>
+							</article>
+							<article class="discover__item js-tilt">
+								<div class="discover__item-content">
+									<h3 class="discover__item-title">Zigma</h3>
+									<p class="discover__item-text">An anime and gaming-inspired NFT collection — the IP primed for expansion.</p>
+								</div>
+								<video class="discover__item-video" src="./files/feature-2.mp4" autoplay muted loop playsinline=""></video>
+							</article>
+							<article class="discover__item js-tilt">
+								<div class="discover__item-content">
+									<h3 class="discover__item-title">nexus</h3>
+									<p class="discover__item-text">
+										A gamified social hub, adding a new dimension of play to social interaction for Web3 communities.
+									</p>
+								</div>
+								<video class="discover__item-video" src="./files/feature-3.mp4" autoplay muted loop playsinline=""></video>
+							</article>
+							<article class="discover__item js-tilt">
+								<div class="discover__item-content">
+									<h3 class="discover__item-title">azul</h3>
+									<p class="discover__item-text">A cross-world AI Agent — elevating your gameplay to be more fun and productive.</p>
+								</div>
+								<video class="discover__item-video" src="./files/feature-4.mp4" autoplay muted loop playsinline=""></video>
+							</article>
+							<article class="discover__item js-tilt">
+								<div class="discover__item-content">
+									<h3 class="discover__item-title visually-hidden" aria-hidden="true">Game Preview</h3>
+								</div>
+								<video class="discover__item-video" src="./files/feature-5.mp4" autoplay muted loop playsinline=""></video>
+							</article>
+							<article class="discover__item discover__item--color js-tilt" data-tilt-glare="true">
+								<div class="discover__item-content">
+									<h3 class="discover__item-title">More Coming Soon!</h3>
+									<div class="discover__icon --icon-cursor-r" aria-hidden="true"></div>
+								</div>
+							</article>
+						</div>
+					</div>
+				</section>
+				<section class="story" id="story">
+					<div class="story__container">
+						<p class="story__pretitle">The Multiversal ip world</p>
+						<div class="story__wrap">
+							<h2 class="story__title anim-title">
+								The story of
+								<br>
+								a hidden realm
+							</h2>
+							<div class="story__image">
+								<div class="story__image-area js-tilt-area" data-tilt-area="" data-tilt-max="12">
+									<div class="story__image-inner" data-tilt-target="">
+										<picture>
+											<source media="(max-width: 600px)" srcset="./assets/img/entrance-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/entrance-1200.webp" type="image/webp">
+											<img class="story__image-img js-tilt-frame" alt="entrance" draggable="false" src="./assets/img/entrance.webp">
+										</picture>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="story__aside-row">
+							<div class="story__aside">
+								<p class="story__text">
+									Where realms converge, lies Zentyr and the boundless piller. Discover its secrets and shape your fate
+               amidst infinite opportunities.
+								</p>
+								<button id="realm-button" class="story__button" type="button">Discover Realms</button>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="cta" id="contact" aria-labelledby="cta-title">
+					<div class="cta__container">
+						<div class="cta__content">
+							<div class="cta__label">Join Zentry</div>
+							<h2 class="cta__title anim-title" id="cta-title">
+								LET'S BUILD
+								<br>
+								THE NEW ERA OF GAMING TOGETHER
+							</h2>
+							<a class="cta__button btn" href="mailto:team@example.com">
+								<span class="btn__label">
+									<span class="btn__main">contact us</span>
+									<span class="btn__alt">now! now!</span>
+								</span>
+							</a>
+							<div class="cta__decor">
+								<picture>
+									<source media="(max-width: 600px)" srcset="./assets/img/contact-1-600.webp" type="image/webp">
+									<source media="(max-width: 1200px)" srcset="./assets/img/contact-1-1200.webp" type="image/webp">
+									<img class="cta__decor-item cta__decor-item--1" alt="" mouse="" dyr="" src="./assets/img/contact-1.webp">
+								</picture>
+								<picture>
+									<source media="(max-width: 600px)" srcset="./assets/img/contact-2-600.webp" type="image/webp">
+									<source media="(max-width: 1200px)" srcset="./assets/img/contact-2-1200.webp" type="image/webp">
+									<img class="cta__decor-item cta__decor-item--2" alt="" mouse="" src="./assets/img/contact-2.webp">
+								</picture>
+								<picture>
+									<source media="(max-width: 600px)" srcset="./assets/img/swordman-600.webp" type="image/webp">
+									<source media="(max-width: 1200px)" srcset="./assets/img/swordman-1200.webp" type="image/webp">
+									<img class="cta__decor-item cta__decor-item--3" alt="" mouse="" dxr="" src="./assets/img/swordman.webp">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</section>
+				<audio id="bg-music" src="./files/loop.mp3" loop></audio>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__copy">© 2025 LANDGAME. All rights reserved.</div>
+					<ul class="footer__sociall">
+						<li class="footer__social-item">
+							<a href="#" class="footer__social-link --icon-dribbble">
+								<span class="visually-hidden">Dribbble</span>
+							</a>
+						</li>
+						<li class="footer__social-item">
+							<a href="#" class="footer__social-link --icon-github">
+								<span class="visually-hidden">GitHub</span>
+							</a>
+						</li>
+						<li class="footer__social-item">
+							<a href="#" class="footer__social-link --icon-discord">
+								<span class="visually-hidden">Discord</span>
+							</a>
+						</li>
+					</ul>
+					<a href="#" class="footer__privacy">Privacy Policy</a>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
